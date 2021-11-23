@@ -2,4 +2,11 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/comeitno/public_html/
-    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R image $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R script $DEPLOYPATH
+    - /bin/cp -R style $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp robot.txt $DEPLOYPATH
