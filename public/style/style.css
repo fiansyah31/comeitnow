@@ -6,6 +6,16 @@
 body {
     background: #212121;
 }
+.navbar-toggler {
+    background: transparent;
+}
+.navbar-toggler:focus {
+    border: 0;
+}
+.navbar-toggler span i {
+    font-size: 2rem;
+    color: #ffffff;
+}
 .navbar-comeitnow {
     padding:30px 0px 30px 0px ;
 }
@@ -42,6 +52,7 @@ body {
     max-width: 100%;
     height: 100%;
     border-radius: 40px;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -49,7 +60,7 @@ body {
 .background-hero .ww {
     margin-left: auto;
     margin-right: auto;
-   width: 500px;
+    width: 500px;
 }
 .hero-title {
     margin-bottom: 20px;
@@ -119,7 +130,7 @@ body {
     padding:3px 10px 3px 10px;
     background-color: #009256;
     border-radius: 10px;
-    font-size: 3rem;
+    font-size: 3rem !important;
     transition: opacity 0.3s;
     color: #ffffff;
 }
@@ -181,7 +192,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
-    border-radius: 50px;
+    border-radius: 40px;
     background-size: cover;
     max-width: 100%;
     height: 100%;
@@ -256,11 +267,11 @@ footer {
         line-height: 24px;
     }
     .section-content {
-       margin-top: 40px;
+        margin-top: 40px;
     }
     .icon-hover i {
         padding:3px 8px 3px 8px;
-        font-size: 1.5rem;
+        font-size: 1.8rem !important;
     }
     .section-footer .nav {
         margin-left: -16px;

@@ -4,10 +4,10 @@
     <meta name="google-site-verification" content="UkM2ZRaRs2GR_KcAu4KCfJiXbqg0tjaDdB5AIXa2z4w" />
     <meta charset="UTF-8">
     <meta name="description" content="Web and mobile app designs that are cool and aesthetically pleasing. must have functionality based on a deep understanding of the product, the business and the users themselves.">
-    <meta name="keywords" content="ui, ux, ui kits, ui design, web designer">
+    <meta name="keywords" content="Web Design, UI UX Design">
     <meta name="author" content="Comeitnow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $title; ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
