@@ -20,9 +20,9 @@
               <div class="col-12 col-lg-4 col-md-4">
                 <nav class="nav flex-column">
                   <a class="nav-link active" aria-current="page" href="#">Social Media</a>
-                  <a class="nav-link" href="#">Youtube</a>
-                  <a class="nav-link" href="#">Driblle</a>
-                  <a class="nav-link" href="#">Instagram</a>
+                  <a class="nav-link" href="https://www.youtube.com/channel/UCKN5YxBlQNCqawG8dlUOBlQ">Youtube</a>
+                  <a class="nav-link" href="https://dribbble.com/alfiansyahputra">Driblle</a>
+                  <a class="nav-link" href="https://www.instagram.com/comeitnow/?hl=id">Instagram</a>
                 </nav>
               </div>
             </div>
