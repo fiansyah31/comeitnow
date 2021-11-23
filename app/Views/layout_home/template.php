@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Web and mobile app designs that are cool and aesthetically pleasing. must have functionality based on a deep understanding of the product, the business and the users themselves.">
+    <meta name="keywords" content="ui, ux, ui kits, ui design, web designer">
+    <meta name="author" content="Comeitnow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title; ?></title>

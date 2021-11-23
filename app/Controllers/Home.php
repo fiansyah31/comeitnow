@@ -12,7 +12,7 @@ class Home extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Comeitnow',
+            'title' => 'UI UX & web designer',
             'data' => $this->projectmodel->resultProject()->paginate(3)
         ];
         return view('home/home', $data);
