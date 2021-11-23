@@ -9,4 +9,4 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp favicon.ico $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp robot.txt $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
