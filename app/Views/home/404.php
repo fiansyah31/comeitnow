@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="pagenot text-center">
+                    <div class="pagenot text-center" data-aos="fade-up">
                         <img src="<?= base_url(); ?>/image/monster-404-error-animate.svg" class="img-fluid" alt="404">
                         <a href="<?= base_url(); ?>/home" class="link-light">Kembali</a>
                     </div>
