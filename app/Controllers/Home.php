@@ -60,7 +60,7 @@ class Home extends BaseController
         $config["fromEmail"] = "Comeitnow - Alfian syahputra";
 
         //isi sesuai nama domain/mail server
-        $config["SMTPHost"]  = "mail.comeitnow.com";
+        $config["SMTPHost"]  = "smtp.gmail.com";
 
         //alamat email SMTP
         $config["SMTPUser"]  = "syahputraalfian223@gmail.com"; 
