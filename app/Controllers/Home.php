@@ -56,7 +56,7 @@ class Home extends BaseController
         $pesan =  $this->request->getPost('pesan');
         $email = \Config\Services::email();
 
-        $config["protocol"] = "mail";
+        $config["protocol"] = "smtp";
         $config["fromEmail"] = "Comeitnow - Alfian syahputra";
 
         //isi sesuai nama domain/mail server
