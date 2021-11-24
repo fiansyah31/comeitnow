@@ -39,4 +39,48 @@ class Home extends BaseController
         ];
         return view('auth/register', $data);
     }
+    public function tes() {
+        return view('tes');
+    }
+    public function email() {
+        $data = [
+            'title' => 'Email',
+        ];
+        return view('home/sendemail', $data);
+    }
+    public function sendemail() {
+        
+        $emailclient =  $this->request->getPost('email');
+        $nameclient =  $this->request->getPost('name');
+        $subject =  $this->request->getPost('subject');
+        $pesan =  $this->request->getPost('pesan');
+        $email = \Config\Services::email();
+
+        $config["protocol"] = "smtp";
+        $config["fromEmail"] = "Comeitnow - Alfian syahputra";
+
+        //isi sesuai nama domain/mail server
+        $config["SMTPHost"]  = "smtp.gmail.com";
+
+        //alamat email SMTP
+        $config["SMTPUser"]  = "syahputraalfian223@gmail.com"; 
+
+        //password email SMTP
+        $config["SMTPPass"]  = "fianpastibisa1"; 
+
+        $config["SMTPPort"]  = 465;
+        $config["SMTPCrypto"] = "ssl";
+
+        $email->initialize($config);
+
+        $email->setFrom($emailclient, $nameclient);
+        $email->setTo('alfiansyahputra911@gmail.com');
+
+        $email->setSubject($subject);
+        $email->setMessage($pesan);
+
+        $email->send();
+		session()->setFlashdata('success', 'Successfully sent message');
+        return redirect()->to(base_url('home/email'));
+    }
 }

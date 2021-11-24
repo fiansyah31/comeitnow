@@ -20,7 +20,7 @@
                 <a class="nav-link" href="#scrollspyHeading2">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?= base_url(); ?>/blog">Blog</a>
+                <a class="nav-link" href="<?= base_url(); ?>/email">Contact me</a>
               </li>          
             </ul>
           </div>

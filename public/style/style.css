@@ -246,6 +246,15 @@ footer {
     margin-right: auto;
     width: 500px;
 }
+
+.section-email {
+    margin-top: 60px;
+}
+label {
+    font-weight: normal;
+    font-size: 16px;
+    color: #E9E9E9;
+}
 @media (max-width:767px) {
     .navbar-ml {
         display: block;

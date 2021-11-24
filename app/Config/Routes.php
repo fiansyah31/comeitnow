@@ -40,6 +40,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/portfolio', 'Home::portfolio');
+$routes->get('/email', 'Home::email');
 $routes->get('/dashboard', 'User::home');
 $routes->get('/dashboard-product', 'User::product');
 $routes->get('/dashboard-setting', 'User::setting');

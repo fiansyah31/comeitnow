@@ -34,7 +34,7 @@
               <div class="background-email">
                 <div class="text-center">
                   <img src="<?= base_url(); ?>/image/new-message-animate.svg" class="svg-email" alt="email" data-aos="fade-up">
-                  <a href="#" class="btn btn-secondary px-4" data-aos="fade-up">Email me</a>
+                  <a href="<?= base_url();?>/email" class="btn btn-secondary px-4" data-aos="fade-up">Email me</a>
                 </div>
               </div>
             </div>
